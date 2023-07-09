@@ -1,0 +1,203 @@
+body {
+    background-image: url(img2/pexels-photo-1640773.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+width: 100%;
+}
+
+#navbar {
+    /* border: 2px solid red; */
+    font-size: 45px;
+    display: inline-block;
+    align-items: center;
+    color: orange;
+    text-align: center;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    margin: 0px 30px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.header {
+    padding: 10px 10px;
+
+    margin: 10px 10px;
+    display: flex;
+}
+
+.menu {
+    width: 50%;
+    padding: 10px 10px;
+    /* background-color: gray ; */
+    font-style: none;
+    display: block;
+    height: 50px;
+    /* border: 2px solid green; */
+    border-radius: 20px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+/* .menu li{
+   
+    font-style: none;
+} */
+.link {
+    display: inline-block;
+}
+
+.link li {
+    display: inline-block;
+
+}
+
+.link li a {
+    color: rgb(58, 55, 55);
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 10px 20px;
+    text-decoration: none;
+
+
+
+}
+
+.link li a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    height: 500px;
+    align-items: center;
+    /* animation-name: food1; */
+    /* position: fixed; */
+
+}
+
+.food {
+
+    font-style: none;
+    align-items: center;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    /* animation-name: food1; */
+    /* flex-wrap: wrap; */
+}
+
+.food img {
+    height: 100px;
+    width: 100px;
+    /* animation-name: food1; */
+    transition: all 1s ease-in-out .2s;
+}
+
+.food img:hover {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    font-size: 40px;
+
+}
+
+.food li {
+    text-decoration: none;
+    margin: 30px 25px;
+    display: flex;
+    transition: all 2s ease-in-out .2s;
+    padding: 25px 25px;
+    font-size: 25px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+
+
+}
+
+.food li a {
+    height: 100px;
+    width: 100px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-decoration: none;
+    /* animation-name: food1; */
+
+
+}
+
+.searchbox {
+    margin: 3px 23px;
+    padding: 5px 60px;
+
+
+}
+
+.btn {
+    margin: 0px 192px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: rgb(240, 223, 198);
+}
+
+.btn:hover {
+    background-color: gray;
+
+}
+
+.customers {
+    position: relative;
+    /* border-radius: 50px;
+background: linear-gradient(145deg, #e0b872, #bc9b60);
+box-shadow:  13px 13px 0px #9f8351,
+     -13px -13px 0px #ffd585; */
+     
+     top: 24%;
+     
+    /* margin: 250px 200px; */
+}
+
+.sponcers {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.sponcers img {
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.sponcers li {
+    text-decoration: none;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    font-size: 50px;
+    font-style: none;
+}
+
+.quotes {
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border-radius: 10px;
+    margin: 50px 0px;
+    padding: 30px 30px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    color: rgb(59, 48, 26);
+}
+.wastage li{
+    padding: 30px 30px;
+
+}
